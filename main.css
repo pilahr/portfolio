@@ -3,24 +3,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #fefbe9;
 }
 
 header {
   font-family: "Ubuntu";
   font-size: 16px;
   padding: 10px;
+  color: #183a1d;
 }
 
 h1 {
   font-family: "Ubuntu";
   font-size: 30px;
   padding: 10px;
+  color: #f0a04b;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #183a1d;
 }
 .about-me__h2 {
   font-family: "Ubuntu";
@@ -30,7 +34,7 @@ h1 {
 }
 .about-me__img {
   width: 60%;
-  border: 2px solid #1b4d89;
+  border: 2px solid #f0a04b;
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
