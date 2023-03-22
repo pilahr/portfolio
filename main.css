@@ -7,4 +7,36 @@
 
 header {
   font-family: "Ubuntu";
+  font-size: 16px;
+  padding: 10px;
 }
+
+h1 {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  padding: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-me__h2 {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+.about-me__img {
+  width: 60%;
+  border: 2px solid #1b4d89;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-me__p {
+  font-family: "Dosis";
+  font-size: 14px;
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */

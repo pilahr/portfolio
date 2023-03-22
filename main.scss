@@ -11,4 +11,42 @@
 
 header {
     font-family: $primary-font;
+    font-size: 16px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: $primary-font;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+    
+    &__h2 {
+        font-family: $primary-font;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    &__img {
+        width: 60%;
+        border: 2px solid $primary-color;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__p {
+        font-family: $secondary-font;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+
 }
