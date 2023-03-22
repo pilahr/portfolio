@@ -43,4 +43,44 @@ h1 {
   font-family: "Dosis";
   font-size: 14px;
   padding: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #183a1d;
+}
+.skills__h2 {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+.skills__p {
+  font-family: "Dosis";
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+.skills__img-with-text {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills__img-with-text img {
+  height: 45px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+.skills__img-with-text p {
+  text-align: justify;
+  font-family: "Ubuntu";
+  font-size: 12px;
+  color: #183a1d;
+  background-color: #e1eedd;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
