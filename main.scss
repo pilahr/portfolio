@@ -110,56 +110,60 @@ header {
         margin-top: 30px;
     }
 
-    &__img-container {
-        background-color: $hilighted-color;
-        position: relative;
-        height: 13rem;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        margin-top: 20px;
-    }
+    .project-card {
 
-    &__img {
-        width: 90%;
-    }
+    
+        &__img-container {
+            background-color: $hilighted-color;
+            position: relative;
+            height: 210px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 20px;
+        }
 
-    &__h3 {
-        font-family: $secondary-font;
-        font-size: 14px;
-        color: $primary-color;
-        margin-top: 15px;
-    }
+        &__img {
+            width: 300px;
+        }
 
-    &__h4 {
-        font-family: $primary-font;
-        font-size: 20px;
-        color: $font-color;
-    }
+        &__h3 {
+            font-family: $secondary-font;
+            font-size: 14px;
+            color: $primary-color;
+            margin-top: 15px;
+        }
 
-    &__p {
-        font-family: $secondary-font;
-        font-size: 14px;
-        padding: 5px;
-    }
-
-    &__button {
-        font-family: $secondary-font;
-        
-        
-        button {
-            background-color: $secondary-color;
+        &__h4 {
+            font-family: $primary-font;
+            font-size: 20px;
             color: $font-color;
-            font-size: 16px;
-            font-weight: bold;
+        }
+
+        &__p {
+            font-family: $secondary-font;
+            font-size: 14px;
             padding: 5px;
-            text-decoration: none;
-            width: 100px;
-            margin-right: 10px;
-            border: 2px solid $primary-color;
-            border-radius: 5px;
+        }
+
+        &__button {
+            font-family: $secondary-font;
+            
+            
+            button {
+                background-color: $secondary-color;
+                color: $font-color;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 5px;
+                text-decoration: none;
+                width: 100px;
+                margin-right: 10px;
+                border: 2px solid $primary-color;
+                border-radius: 5px;
+            }
         }
     }
 

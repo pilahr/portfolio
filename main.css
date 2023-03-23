@@ -96,40 +96,40 @@ header {
   padding: 10px;
   margin-top: 30px;
 }
-.project__img-container {
+.project .project-card__img-container {
   background-color: #e1eedd;
   position: relative;
-  height: 13rem;
-  width: 100%;
+  height: 210px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
 }
-.project__img {
-  width: 90%;
+.project .project-card__img {
+  width: 300px;
 }
-.project__h3 {
+.project .project-card__h3 {
   font-family: "Dosis";
   font-size: 14px;
   color: #f0a04b;
   margin-top: 15px;
 }
-.project__h4 {
+.project .project-card__h4 {
   font-family: "Ubuntu";
   font-size: 20px;
   color: #183a1d;
 }
-.project__p {
+.project .project-card__p {
   font-family: "Dosis";
   font-size: 14px;
   padding: 5px;
 }
-.project__button {
+.project .project-card__button {
   font-family: "Dosis";
 }
-.project__button button {
+.project .project-card__button button {
   background-color: #f6c453;
   color: #183a1d;
   font-size: 16px;
