@@ -43,8 +43,7 @@ header {
 .about-me__p {
   font-family: "Dosis";
   font-size: 14px;
-  padding: 10px;
-  width: 40%;
+  width: 240px;
   display: flex;
   align-self: center;
 }
@@ -67,13 +66,16 @@ header {
   font-size: 14px;
   padding: 10px;
   text-align: center;
+  display: flex;
+  align-self: center;
+  width: 240px;
 }
 .skills__img-with-text {
   width: 100%;
   padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 .skills__img-with-text img {
   height: 45px;
@@ -109,14 +111,15 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  align-self: center;
+  width: 320px;
   height: auto;
 }
 .project .project-card__img-container {
   background-color: #e1eedd;
   position: relative;
-  height: 210px;
-  width: 320px;
+  height: 200px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -124,7 +127,7 @@ header {
   margin-top: 20px;
 }
 .project .project-card__img {
-  width: 300px;
+  width: 260px;
 }
 .project .project-card__h3 {
   font-family: "Dosis";
