@@ -26,13 +26,13 @@ header {
   justify-content: center;
   color: #183a1d;
 }
-.about-me__h2 {
+.about-me h2 {
   font-family: "Ubuntu";
   font-size: 18px;
   text-align: center;
   padding: 10px;
 }
-.about-me__img {
+.about-me img {
   width: 200px;
   height: auto;
   border: 2px solid #6E2C00;
@@ -40,7 +40,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.about-me__p {
+.about-me p {
   font-family: "Dosis";
   font-size: 14px;
   width: 240px;
@@ -54,7 +54,7 @@ header {
   justify-content: center;
   color: #183a1d;
 }
-.skills__h2 {
+.skills h2 {
   font-family: "Ubuntu";
   font-size: 18px;
   text-align: center;
@@ -107,7 +107,7 @@ header {
   padding: 10px;
   margin-top: 30px;
 }
-.project .project-card {
+.project .card {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -116,7 +116,7 @@ header {
   width: 320px;
   height: auto;
 }
-.project .project-card__img-container {
+.project .card__img-container {
   background-color: #e1eedd;
   position: relative;
   height: 200px;
@@ -127,29 +127,29 @@ header {
   align-items: center;
   margin-top: 20px;
 }
-.project .project-card__img {
+.project .card__img {
   width: 260px;
 }
-.project .project-card__h3 {
+.project .card h3 {
   font-family: "Dosis";
   font-size: 14px;
   color: #6E2C00;
   margin-top: 15px;
 }
-.project .project-card__h4 {
+.project .card h4 {
   font-family: "Ubuntu";
   font-size: 20px;
   color: #183a1d;
 }
-.project .project-card__p {
+.project .card p {
   font-family: "Dosis";
   font-size: 14px;
   padding: 5px;
 }
-.project .project-card__button {
+.project .card__button {
   font-family: "Dosis";
 }
-.project .project-card__button button {
+.project .card__button button {
   background-color: #f6c453;
   color: #183a1d;
   font-size: 16px;

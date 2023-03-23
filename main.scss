@@ -30,14 +30,14 @@ header {
     justify-content: center;
     color: $font-color;
     
-    &__h2 {
+    h2 {
         font-family: $primary-font;
         font-size: 18px;
         text-align: center;
         padding: 10px;
     }
 
-    &__img {
+    img {
         width: 200px;
         height: auto;
         border: 2px solid $primary-color;
@@ -46,7 +46,7 @@ header {
         margin-right: auto;
     }
 
-    &__p {
+    p {
         font-family: $secondary-font;
         font-size: 14px;
         width: 240px;
@@ -61,7 +61,7 @@ header {
     justify-content: center;
     color: $font-color;
    
-    &__h2 {
+    h2 {
         font-family: $primary-font;
         font-size: 18px;
         text-align: center;
@@ -121,7 +121,7 @@ header {
         margin-top: 30px;
     }
 
-    .project-card {
+    .card {
         padding: 10px;
         display: flex;
         flex-direction: column;
@@ -146,20 +146,20 @@ header {
             width: 260px;
         }
 
-        &__h3 {
+        h3 {
             font-family: $secondary-font;
             font-size: 14px;
             color: $primary-color;
             margin-top: 15px;
         }
 
-        &__h4 {
+        h4 {
             font-family: $primary-font;
             font-size: 20px;
             color: $font-color;
         }
 
-        &__p {
+        p {
             font-family: $secondary-font;
             font-size: 14px;
             padding: 5px;
