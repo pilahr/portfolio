@@ -38,7 +38,8 @@ header {
     }
 
     &__img {
-        width: 60%;
+        width: 200px;
+        height: auto;
         border: 2px solid $primary-color;
         margin: 10px;
         margin-left: auto;
@@ -49,6 +50,9 @@ header {
         font-family: $secondary-font;
         font-size: 14px;
         padding: 10px;
+        width: 40%;
+        display: flex;
+        align-self: center;
     }
 }
 
