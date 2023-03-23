@@ -101,6 +101,10 @@ header {
 .project {
     color: $font-color;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__h2 {
         font-family: $primary-font;
@@ -111,7 +115,12 @@ header {
     }
 
     .project-card {
-
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        height: auto;
     
         &__img-container {
             background-color: $hilighted-color;
