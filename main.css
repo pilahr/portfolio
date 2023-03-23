@@ -129,6 +129,7 @@ header {
 }
 .project .card__img {
   width: 260px;
+  height: auto;
 }
 .project .card h3 {
   font-family: "Dosis";
