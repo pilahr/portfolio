@@ -185,5 +185,46 @@ header {
             }
         }
     }
+}
+
+.ft-container {
+    background-color: $font-color;
+    font-family: $secondary-font;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100 vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+
+    &__link-icon {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        background-color: $font-color;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    a {
+        border: 3px solid $secondary-color;
+        border-radius: 50%;
+    }
+
+    img {
+        align-self: center;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+
+
+    p {
+        background-color: $font-color;
+    }
 
 }

@@ -159,4 +159,39 @@ header {
   margin-right: 10px;
   border: 2px solid #6E2C00;
   border-radius: 5px;
+}
+
+.ft-container {
+  background-color: #183a1d;
+  font-family: "Dosis";
+  font-size: 14px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100 vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.ft-container__link-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: #183a1d;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ft-container a {
+  border: 3px solid #f6c453;
+  border-radius: 50%;
+}
+.ft-container img {
+  align-self: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.ft-container p {
+  background-color: #183a1d;
 }/*# sourceMappingURL=main.css.map */
