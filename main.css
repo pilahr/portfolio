@@ -71,11 +71,12 @@ header {
   width: 240px;
 }
 .skills__img-with-text {
-  width: 100%;
-  padding: 10px;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  align-self: center;
 }
 .skills__img-with-text img {
   height: 45px;

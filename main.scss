@@ -80,14 +80,12 @@ header {
     }
 
     &__img-with-text {
-        width: 100%;
-        padding: 10px;
+        width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-        // display: flex;
-        // justify-content: space-around;
-        // flex-wrap: wrap;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        align-self: center;        
         
         
         img {
