@@ -1,0 +1,201 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $font-color;
+    
+    h2 {
+        font-family: $primary-font;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        border: 2px solid $primary-color;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        font-family: $secondary-font;
+        font-size: 14px;
+        width: 240px;
+        display: flex;
+        align-self: center;
+    }
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $font-color;
+   
+    h2 {
+        font-family: $primary-font;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    &__p {
+        font-family: $secondary-font;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        align-self: center;
+        width: 240px;
+    }
+
+    &__img-with-text {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        align-self: center;        
+        
+        
+        img {
+            height: 45px;
+            padding: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        p {
+            text-align: justify;
+            font-family: $primary-font;
+            font-size: 12px;
+            color: $font-color;
+            text-align: center;
+        }
+    }
+}
+
+.project {
+    color: $font-color;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__h2 {
+        font-family: $primary-font;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .card {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 320px;
+        height: auto;
+    
+        &__img-container {
+            background-color: $hilighted-color;
+            position: relative;
+            height: 200px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        &__img {
+            width: 260px;
+            height: auto;
+        }
+
+        h3 {
+            font-family: $secondary-font;
+            font-size: 14px;
+            color: $primary-color;
+            margin-top: 15px;
+        }
+
+        h4 {
+            font-family: $primary-font;
+            font-size: 20px;
+            color: $font-color;
+        }
+
+        p {
+            font-family: $secondary-font;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+        &__button {
+            font-family: $secondary-font;
+            
+            
+            button {
+                background-color: $secondary-color;
+                color: $font-color;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 5px;
+                text-decoration: none;
+                width: 100px;
+                margin-right: 10px;
+                border: 2px solid $primary-color;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.ft-container {
+    background-color: $font-color;
+    font-family: $secondary-font;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100 vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+
+    &__link-icon {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        background-color: $font-color;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    a {
+        border: 3px solid $secondary-color;
+        border-radius: 50%;
+    }
+
+    img {
+        align-self: center;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+
+    p {
+        background-color: $font-color;
+    }
+}
