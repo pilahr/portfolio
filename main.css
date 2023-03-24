@@ -254,23 +254,29 @@
     justify-content: center;
     margin: 20px;
   }
+
   header {
     grid-area: head1;
   }
+
   h1 {
     grid-area: head2;
   }
+
   img {
     grid-area: image;
   }
+
   .skills__img-with-text {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
   }
+
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .ft-container {
     display: flex;
     flex-direction: row-reverse;
@@ -278,4 +284,4 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
