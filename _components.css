@@ -1,3 +1,10 @@
+main {
+  padding: 20px 20px 20px 20px;
+}
+
+.head {
+  margin-bottom: 50px;
+}
 .head header {
   font-family: "Ubuntu", "sans-serif";
   font-size: 16px;
@@ -13,6 +20,7 @@
 .head img {
   width: 200px;
   height: auto;
+  display: none;
 }
 
 .about-me {
@@ -26,6 +34,7 @@
   font-size: 18px;
   text-align: center;
   padding: 10px;
+  margin-bottom: 40px;
 }
 .about-me img {
   width: 200px;
@@ -33,10 +42,12 @@
   border: 2px solid #6E2C00;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 .about-me__text {
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 .about-me__text p {
   font-family: "Dosis", "sans-serif";
@@ -49,6 +60,7 @@
   flex-direction: column;
   justify-content: center;
   color: #183a1d;
+  margin-bottom: 50px;
 }
 .skills h2 {
   font-family: "Ubuntu", "sans-serif";

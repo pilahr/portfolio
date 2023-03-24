@@ -21,8 +21,8 @@
             "head1 image"
             "head2 image";     
         width: 60vw;
-        justify-content: center;
-        margin: 20px;
+        align-self: center;
+        margin: 20px 100px 50px 100px;
         
         header {
             grid-area: head1;
@@ -34,27 +34,30 @@
 
         img {
             grid-area: image;
+            display: unset;
         }   
     }
             
     
 
     .about-me {
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
         display: grid;
         grid-template-areas:
-            "myimage heading heading"
-            "myimage text text";
+            "myimage heading heading heading"
+            "myimage text text text";
 
         h2 {
             grid-area: heading;
             text-align: left;
             margin-left: 45px;
+            margin-bottom: 10px;
         }
 
         img {
             grid-area: myimage;
+            align-self: center;
         }
 
         &__text {

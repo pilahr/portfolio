@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Ubuntu:ital,wght@0,700;1,400&display=swap");
+main {
+  padding: 20px 20px 20px 20px;
+}
+
+.head {
+  margin-bottom: 50px;
+}
 .head header {
   font-family: "Ubuntu", "sans-serif";
   font-size: 16px;
@@ -14,6 +21,7 @@
 .head img {
   width: 200px;
   height: auto;
+  display: none;
 }
 
 .about-me {
@@ -27,6 +35,7 @@
   font-size: 18px;
   text-align: center;
   padding: 10px;
+  margin-bottom: 40px;
 }
 .about-me img {
   width: 200px;
@@ -34,10 +43,12 @@
   border: 2px solid #6E2C00;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 .about-me__text {
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 .about-me__text p {
   font-family: "Dosis", "sans-serif";
@@ -50,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
   color: #183a1d;
+  margin-bottom: 50px;
 }
 .skills h2 {
   font-family: "Ubuntu", "sans-serif";
@@ -252,8 +264,8 @@
     display: grid;
     grid-template-areas: "head1 image" "head2 image";
     width: 60vw;
-    justify-content: center;
-    margin: 20px;
+    align-self: center;
+    margin: 20px 100px 50px 100px;
   }
   .head header {
     grid-area: head1;
@@ -263,36 +275,35 @@
   }
   .head img {
     grid-area: image;
+    display: unset;
   }
-
   .about-me {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: grid;
-    grid-template-areas: "myimage heading heading" "myimage text text";
+    grid-template-areas: "myimage heading heading heading" "myimage text text text";
   }
   .about-me h2 {
     grid-area: heading;
     text-align: left;
     margin-left: 45px;
+    margin-bottom: 10px;
   }
   .about-me img {
     grid-area: myimage;
+    align-self: center;
   }
   .about-me__text {
     grid-area: text;
   }
-
   .skills__img-with-text {
     display: flex;
     justify-content: center;
   }
-
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   .ft-container {
     display: flex;
     flex-direction: row-reverse;
@@ -300,4 +311,4 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-}
+}/*# sourceMappingURL=main.css.map */

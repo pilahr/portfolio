@@ -1,7 +1,11 @@
 @use "./variables" as *;
 
+main {
+    padding: 20px 20px 20px 20px;
+}
+
 .head {
-   
+    margin-bottom: 50px;
     header {
         font-family: $primary-font;
         font-size: 16px;
@@ -19,6 +23,7 @@
     img {
         width: 200px;
         height: auto;
+        display: none;
     }
 }
 
@@ -34,6 +39,7 @@
         font-size: 18px;
         text-align: center;
         padding: 10px;
+        margin-bottom: 40px;
     }
 
     img {
@@ -42,11 +48,13 @@
         border: 2px solid $primary-color;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 50px;
     }
 
     &__text {
         margin-left: 50px;
         margin-right: 50px;
+        margin-bottom: 50px;
 
         p {
             font-family: $secondary-font;
@@ -62,6 +70,7 @@
     flex-direction: column;
     justify-content: center;
     color: $font-color;
+    margin-bottom: 50px;
    
     h2 {
         font-family: $primary-font;
