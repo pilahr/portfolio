@@ -1,5 +1,6 @@
 @use "./variables" as *;
 @use "./components" as *;
+@use "./nav" as *;
 
 // font "Ubuntu" , "Dosis" 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
@@ -25,3 +26,6 @@ header {
     padding: 10px;
 }
 
+// @media screen and (min-width: 768px) {
+
+// }
