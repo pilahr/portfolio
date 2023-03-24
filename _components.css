@@ -1,3 +1,20 @@
+.head header {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 16px;
+  padding: 10px;
+  color: #183a1d;
+}
+.head h1 {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 30px;
+  color: #6E2C00;
+  padding: 10px;
+}
+.head img {
+  width: 200px;
+  height: auto;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -14,16 +31,17 @@
   width: 200px;
   height: auto;
   border: 2px solid #6E2C00;
-  margin: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-.about-me p {
+.about-me__text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.about-me__text p {
   font-family: "Dosis", "sans-serif";
   font-size: 14px;
-  width: 240px;
-  display: flex;
-  align-self: center;
+  margin-bottom: 10px;
 }
 
 .skills {

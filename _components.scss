@@ -1,5 +1,27 @@
 @use "./variables" as *;
 
+.head {
+   
+    header {
+        font-family: $primary-font;
+        font-size: 16px;
+        padding: 10px;
+        color: $font-color;
+    }
+
+    h1 {
+        font-family: $primary-font;
+        font-size: 30px;
+        color: $primary-color;
+        padding: 10px;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
+
 // ABOUT ME
 .about-me {
     display: flex;
@@ -18,17 +40,19 @@
         width: 200px;
         height: auto;
         border: 2px solid $primary-color;
-        margin: 10px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    p {
-        font-family: $secondary-font;
-        font-size: 14px;
-        width: 240px;
-        display: flex;
-        align-self: center;
+    &__text {
+        margin-left: 50px;
+        margin-right: 50px;
+
+        p {
+            font-family: $secondary-font;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
     }
 }
 

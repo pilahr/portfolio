@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Ubuntu:ital,wght@0,700;1,400&display=swap");
+.head header {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 16px;
+  padding: 10px;
+  color: #183a1d;
+}
+.head h1 {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 30px;
+  color: #6E2C00;
+  padding: 10px;
+}
+.head img {
+  width: 200px;
+  height: auto;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -15,16 +32,17 @@
   width: 200px;
   height: auto;
   border: 2px solid #6E2C00;
-  margin: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-.about-me p {
+.about-me__text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.about-me__text p {
   font-family: "Dosis", "sans-serif";
   font-size: 14px;
-  width: 240px;
-  display: flex;
-  align-self: center;
+  margin-bottom: 10px;
 }
 
 .skills {
@@ -229,23 +247,6 @@
   background-color: #fefbe9;
 }
 
-.head header {
-  font-family: "Ubuntu", "sans-serif";
-  font-size: 16px;
-  padding: 10px;
-  color: #183a1d;
-}
-.head h1 {
-  font-family: "Ubuntu", "sans-serif";
-  font-size: 30px;
-  color: #6E2C00;
-  padding: 10px;
-}
-.head img {
-  width: 200px;
-  height: auto;
-}
-
 @media screen and (min-width: 768px) {
   .head {
     display: grid;
@@ -254,17 +255,32 @@
     justify-content: center;
     margin: 20px;
   }
-
-  header {
+  .head header {
     grid-area: head1;
   }
-
-  h1 {
+  .head h1 {
     grid-area: head2;
   }
-
-  img {
+  .head img {
     grid-area: image;
+  }
+
+  .about-me {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-areas: "myimage heading heading" "myimage text text";
+  }
+  .about-me h2 {
+    grid-area: heading;
+    text-align: left;
+    margin-left: 45px;
+  }
+  .about-me img {
+    grid-area: myimage;
+  }
+  .about-me__text {
+    grid-area: text;
   }
 
   .skills__img-with-text {
