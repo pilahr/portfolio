@@ -17,7 +17,6 @@
         justify-content: flex-end;
         list-style-type: none;
         font-family: $secondary-font;
-        
         // display: none;
 
         a:link,
@@ -31,9 +30,7 @@
             font-size: 14px;
             color: $font-color;
         }
-        
     }
-
 
     &__button {
         background-color: $secondary-color;
