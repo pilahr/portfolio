@@ -106,14 +106,16 @@
         flex-direction: column;
         justify-content: center;
         align-self: center;
-        width: 320px;
+        width: 280px;
         height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     
         &__img-container {
             background-color: $hilighted-color;
             position: relative;
-            height: 200px;
-            width: 280px;
+            height: 180px;
+            width: 240px;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -122,7 +124,7 @@
         }
 
         &__img {
-            width: 260px;
+            width: 220px;
             height: auto;
         }
 
@@ -142,24 +144,24 @@
         p {
             font-family: $secondary-font;
             font-size: 14px;
-            padding: 5px;
         }
 
         &__button {
             font-family: $secondary-font;
-            
+            margin-top: 10px;
+            margin-bottom: 10px;
             
             button {
                 background-color: $secondary-color;
                 color: $font-color;
                 font-size: 16px;
                 font-weight: bold;
-                padding: 5px;
                 text-decoration: none;
                 width: 100px;
                 margin-right: 10px;
                 border: 2px solid $primary-color;
                 border-radius: 5px;
+                padding: 5px;
             }
         }
     }
@@ -175,8 +177,7 @@
     justify-content: center;
     align-items: center;
     width: 100 vw;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    height: 150px;
    
 
     &__link-icon {

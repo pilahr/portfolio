@@ -92,14 +92,16 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  width: 320px;
+  width: 280px;
   height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .project .card__img-container {
   background-color: #e1eedd;
   position: relative;
-  height: 200px;
-  width: 280px;
+  height: 180px;
+  width: 240px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -107,7 +109,7 @@
   margin-top: 20px;
 }
 .project .card__img {
-  width: 260px;
+  width: 220px;
   height: auto;
 }
 .project .card h3 {
@@ -124,22 +126,23 @@
 .project .card p {
   font-family: "Dosis", "sans-serif";
   font-size: 14px;
-  padding: 5px;
 }
 .project .card__button {
   font-family: "Dosis", "sans-serif";
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .project .card__button button {
   background-color: #f6c453;
   color: #183a1d;
   font-size: 16px;
   font-weight: bold;
-  padding: 5px;
   text-decoration: none;
   width: 100px;
   margin-right: 10px;
   border: 2px solid #6E2C00;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .ft-container {
@@ -152,8 +155,7 @@
   justify-content: center;
   align-items: center;
   width: 100 vw;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  height: 150px;
 }
 .ft-container__link-icon {
   display: grid;
