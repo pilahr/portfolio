@@ -70,6 +70,14 @@
   text-align: center;
 }
 
+.project-h2 {
+  font-family: "Ubuntu", "sans-serif";
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
 .project {
   color: #183a1d;
   padding: 10px;
@@ -77,13 +85,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.project__h2 {
-  font-family: "Ubuntu", "sans-serif";
-  text-align: center;
-  font-size: 18px;
-  padding: 10px;
-  margin-top: 30px;
 }
 .project .card {
   padding: 10px;

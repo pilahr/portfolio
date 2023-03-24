@@ -13,7 +13,7 @@
 }
 
 .head {
-
+   
     header {
         font-family: $primary-font;
         font-size: 16px;
@@ -34,28 +34,47 @@
     }
 }
 
-
-// @media screen and (min-width: 768px) {
-//     .head {
-//         display: grid;
-//         grid-template-areas: 
-//             "head1 head1"
-//             "head2 image";     
-//         width: 60vw;
-//         align-items: center;
-//         margin-bottom: 20px;
-//     }
+@media screen and (min-width: 768px) {
+    .head {
+        display: grid;
+        grid-template-areas: 
+            "head1 image"
+            "head2 image";     
+        width: 60vw;
+        justify-content: center;
+        margin: 20px;
+    }
             
-//     header {
-//         grid-area: head1;
-//     }
+    header {
+        grid-area: head1;
+    }
 
-//     h1 {
-//         grid-area: head2;
-//     }
+    h1 {
+        grid-area: head2;
+    }
 
-//     img {
-//         grid-area: image;
-//         }
+    img {
+        grid-area: image;
+    }   
+
+    .skills {
+        &__img-with-text {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         
-// }
+    }
+
+    .ft-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
