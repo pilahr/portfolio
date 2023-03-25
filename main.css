@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Ubuntu:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:ital,wght@0,700;1,400&display=swap");
 main {
   padding: 20px 20px 20px 20px;
 }
@@ -51,7 +51,7 @@ main {
   margin-bottom: 50px;
 }
 .about-me__text p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -71,7 +71,7 @@ main {
   margin-top: 30px;
 }
 .skills__p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   padding: 10px;
   text-align: center;
@@ -141,7 +141,7 @@ main {
   margin-top: 30px;
 }
 .project .card h3 {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   color: #6E2C00;
   margin-top: 15px;
@@ -152,11 +152,11 @@ main {
   color: #183a1d;
 }
 .project .card p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
 }
 .project .card__button {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -175,7 +175,7 @@ main {
 
 .ft-container {
   background-color: #183a1d;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   color: white;
   display: flex;
@@ -225,7 +225,7 @@ main {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 .nav-container__navbar ul a:link,
 .nav-container__navbar ul a:visited {
@@ -242,7 +242,7 @@ main {
   border: 2px, solid, #6E2C00;
   border-radius: 5px;
   font-size: 14px;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   width: 100px;
   padding: 5px;
   color: #183a1d;
@@ -256,7 +256,7 @@ main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #fefbe9;
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 768px) {
