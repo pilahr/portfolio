@@ -1,31 +1,34 @@
-.navbar {
+.nav-container {
+  display: none;
+}
+.nav-container__navbar {
   display: grid;
   grid-template-columns: 5fr 1fr 1fr;
   align-items: center;
   padding: 20px;
 }
-.navbar h1 {
+.nav-container__navbar h1 {
   font-family: "Ubuntu", "sans-serif";
   color: #6E2C00;
   font-size: 16px;
 }
-.navbar__list {
+.nav-container__navbar ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   font-family: "Dosis", "sans-serif";
 }
-.navbar__list a:link,
-.navbar__list a:visited {
+.nav-container__navbar ul a:link,
+.nav-container__navbar ul a:visited {
   text-decoration: none;
 }
-.navbar__list li {
+.nav-container__navbar ul li {
   margin-left: 15px;
   margin-right: 15px;
   font-size: 14px;
   color: #183a1d;
 }
-.navbar__button {
+.nav-container__navbar button {
   background-color: #f6c453;
   border: 2px, solid, #6E2C00;
   border-radius: 5px;
@@ -35,7 +38,7 @@
   padding: 5px;
   color: #183a1d;
 }
-.navbar__button a:link,
-.navbar__button a:visited {
+.nav-container__navbar button a:link,
+.nav-container__navbar button a:visited {
   text-decoration: none;
 }

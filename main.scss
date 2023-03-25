@@ -15,6 +15,10 @@
 
 
 @media screen and (min-width: 768px) {
+    .nav-container {
+        display: unset;
+    }
+    
     .head {
         display: grid;
         grid-template-areas: 
