@@ -135,6 +135,9 @@ main {
   align-items: center;
   margin-top: 20px;
 }
+.project .card__img-container:hover {
+  background-color: #f6c453;
+}
 .project .card__img {
   width: 80%;
   height: auto;
@@ -172,6 +175,10 @@ main {
   border-radius: 5px;
   padding: 5px;
 }
+.project .card__button button:hover {
+  background-color: white;
+  cursor: pointer;
+}
 
 .ft-container {
   background-color: #183a1d;
@@ -202,6 +209,9 @@ main {
   border-radius: 50%;
   width: 25px;
   height: 25px;
+}
+.ft-container img:hover {
+  background-color: #f6c453;
 }
 .ft-container p {
   background-color: #183a1d;
@@ -251,6 +261,10 @@ main {
 .nav-container__navbar button a:visited {
   text-decoration: none;
 }
+.nav-container__navbar button:hover {
+  background-color: white;
+  cursor: pointer;
+}
 
 * {
   padding: 0;
@@ -284,7 +298,7 @@ main {
     margin-left: 100px;
     margin-right: 100px;
     display: grid;
-    grid-template-areas: "myimage heading heading heading" "myimage text text text";
+    grid-template-areas: "myimage heading heading heading" "myimage text text text" "myimage text text text";
   }
   .about-me h2 {
     grid-area: heading;

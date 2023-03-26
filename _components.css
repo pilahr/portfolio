@@ -50,7 +50,7 @@ main {
   margin-bottom: 50px;
 }
 .about-me__text p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -70,7 +70,7 @@ main {
   margin-top: 30px;
 }
 .skills__p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   padding: 10px;
   text-align: center;
@@ -134,13 +134,16 @@ main {
   align-items: center;
   margin-top: 20px;
 }
+.project .card__img-container:hover {
+  background-color: #f6c453;
+}
 .project .card__img {
   width: 80%;
   height: auto;
   margin-top: 30px;
 }
 .project .card h3 {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   color: #6E2C00;
   margin-top: 15px;
@@ -151,11 +154,11 @@ main {
   color: #183a1d;
 }
 .project .card p {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
 }
 .project .card__button {
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -171,10 +174,14 @@ main {
   border-radius: 5px;
   padding: 5px;
 }
+.project .card__button button:hover {
+  background-color: white;
+  cursor: pointer;
+}
 
 .ft-container {
   background-color: #183a1d;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-size: 14px;
   color: white;
   display: flex;
@@ -201,6 +208,9 @@ main {
   border-radius: 50%;
   width: 25px;
   height: 25px;
+}
+.ft-container img:hover {
+  background-color: #f6c453;
 }
 .ft-container p {
   background-color: #183a1d;

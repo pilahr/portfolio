@@ -40,8 +40,6 @@
             display: unset;
         }   
     }
-            
-    
 
     .about-me {
         margin-left: 100px;
@@ -49,6 +47,7 @@
         display: grid;
         grid-template-areas:
             "myimage heading heading heading"
+            "myimage text text text"
             "myimage text text text";
 
         h2 {

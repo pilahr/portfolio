@@ -151,6 +151,10 @@ main {
             justify-content: flex-end;
             align-items: center;
             margin-top: 20px;
+        } 
+
+        &__img-container:hover {
+            background-color: $secondary-color;
         }
 
         &__img {
@@ -195,6 +199,11 @@ main {
                 border-radius: 5px;
                 padding: 5px;
             }
+
+            button:hover {
+                background-color: white;
+                cursor: pointer;
+            }
         }
     }
 }
@@ -231,6 +240,10 @@ main {
         border-radius: 50%;
         width: 25px;
         height: 25px;
+    }
+
+    img:hover {
+        background-color: $secondary-color;
     }
 
     p {

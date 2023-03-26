@@ -16,7 +16,7 @@
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 .nav-container__navbar ul a:link,
 .nav-container__navbar ul a:visited {
@@ -33,7 +33,7 @@
   border: 2px, solid, #6E2C00;
   border-radius: 5px;
   font-size: 14px;
-  font-family: "Dosis", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   width: 100px;
   padding: 5px;
   color: #183a1d;
@@ -41,4 +41,8 @@
 .nav-container__navbar button a:link,
 .nav-container__navbar button a:visited {
   text-decoration: none;
+}
+.nav-container__navbar button:hover {
+  background-color: white;
+  cursor: pointer;
 }
