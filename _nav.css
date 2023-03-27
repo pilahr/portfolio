@@ -28,6 +28,9 @@
   font-size: 14px;
   color: #183a1d;
 }
+.nav-container__navbar ul li:hover {
+  color: #6E2C00;
+}
 .nav-container__navbar button {
   background-color: #f6c453;
   border: 2px, solid, #6E2C00;
@@ -37,6 +40,7 @@
   width: 100px;
   padding: 5px;
   color: #183a1d;
+  box-shadow: 1px 1px 2px;
 }
 .nav-container__navbar button a:link,
 .nav-container__navbar button a:visited {

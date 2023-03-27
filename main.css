@@ -35,7 +35,7 @@ main {
   font-size: 18px;
   text-align: center;
   padding: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .about-me img {
   width: 200px;
@@ -44,6 +44,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  box-shadow: 1px 1px 5px;
 }
 .about-me__text {
   margin-left: 50px;
@@ -77,7 +78,7 @@ main {
   text-align: center;
   display: flex;
   align-self: center;
-  width: 240px;
+  width: 300px;
 }
 .skills__img-with-text {
   width: 50%;
@@ -135,6 +136,9 @@ main {
   align-items: center;
   margin-top: 20px;
 }
+.project .card__img-container--blue-bg {
+  background-color: #d6eaf8;
+}
 .project .card__img-container:hover {
   background-color: #f6c453;
 }
@@ -169,11 +173,12 @@ main {
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
-  width: 85px;
+  width: 88px;
   margin-right: 10px;
   border: 1px solid #6E2C00;
   border-radius: 5px;
   padding: 5px;
+  box-shadow: 1px 1px 2px;
 }
 .project .card__button button:hover {
   background-color: white;
@@ -194,11 +199,9 @@ main {
 }
 .ft-container__link-icon {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   background-color: #183a1d;
-  align-items: center;
-  margin-bottom: 20px;
 }
 .ft-container a {
   border: 3px solid #f6c453;
@@ -247,6 +250,9 @@ main {
   font-size: 14px;
   color: #183a1d;
 }
+.nav-container__navbar ul li:hover {
+  color: #6E2C00;
+}
 .nav-container__navbar button {
   background-color: #f6c453;
   border: 2px, solid, #6E2C00;
@@ -256,6 +262,7 @@ main {
   width: 100px;
   padding: 5px;
   color: #183a1d;
+  box-shadow: 1px 1px 2px;
 }
 .nav-container__navbar button a:link,
 .nav-container__navbar button a:visited {

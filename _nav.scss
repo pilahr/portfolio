@@ -1,63 +1,63 @@
 @use "./variables" as *;
 
 .nav-container {
-    display: none;
+  display: none;
 
-    &__navbar {
-        display: grid;
-        grid-template-columns: 5fr 1fr 1fr;
-        align-items: center;
-        padding: 20px;
-        
-        h1 {
-            font-family: $primary-font;
-            color: $primary-color;
-            font-size: 16px;
-            
-        }
+  &__navbar {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
 
-        ul {
-            display: flex;
-            justify-content: flex-end;
-            list-style-type: none;
-            font-family: $secondary-font;
-            
-
-            a:link,
-            a:visited {
-                text-decoration: none;
-            }
-
-            li {
-                margin-left: 15px;
-                margin-right: 15px;
-                font-size: 14px;
-                color: $font-color;
-            }
-        }
-
-        button {
-            background-color: $secondary-color;
-            border: 2px, solid, $primary-color;
-            border-radius: 5px;
-            font-size: 14px;
-            font-family: $secondary-font;
-            width: 100px;
-            padding: 5px;
-            color: $font-color;
-            
-            a:link,
-            a:visited {
-                text-decoration: none;
-            }
-        }
-
-        button:hover {
-            background-color: white;
-            cursor: pointer;
-        }
+    h1 {
+      font-family: $primary-font;
+      color: $primary-color;
+      font-size: 16px;
     }
 
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style-type: none;
+      font-family: $secondary-font;
 
+      a:link,
+      a:visited {
+        text-decoration: none;
+      }
+
+      li {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 14px;
+        color: $font-color;
+      }
+
+      li:hover {
+        color: $primary-color;
+      }
+    }
+
+    button {
+      background-color: $secondary-color;
+      border: 2px, solid, $primary-color;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: $secondary-font;
+      width: 100px;
+      padding: 5px;
+      color: $font-color;
+      box-shadow: 1px 1px 2px;
+
+      a:link,
+      a:visited {
+        text-decoration: none;
+      }
+    }
+
+    button:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+  }
 }
-

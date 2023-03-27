@@ -1,252 +1,254 @@
 @use "./variables" as *;
 
 main {
-    padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 // HEADING
 .head {
-    margin-bottom: 50px;
-    header {
-        font-family: $primary-font;
-        font-size: 16px;
-        padding: 10px;
-        color: $font-color;
-    }
+  margin-bottom: 50px;
+  header {
+    font-family: $primary-font;
+    font-size: 16px;
+    padding: 10px;
+    color: $font-color;
+  }
 
-    h1 {
-        font-family: $primary-font;
-        font-size: 30px;
-        color: $primary-color;
-        padding: 10px;
-    }
+  h1 {
+    font-family: $primary-font;
+    font-size: 30px;
+    color: $primary-color;
+    padding: 10px;
+  }
 
-    img {
-        width: 200px;
-        height: auto;
-        display: none;
-    }
+  img {
+    width: 200px;
+    height: auto;
+    display: none;
+  }
 }
 
 // ABOUT ME
 .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $font-color;
-    
-    h2 {
-        font-family: $primary-font;
-        font-size: 18px;
-        text-align: center;
-        padding: 10px;
-        margin-bottom: 40px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $font-color;
 
-    img {
-        width: 200px;
-        height: auto;
-        border: 2px solid $primary-color;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-    }
+  h2 {
+    font-family: $primary-font;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
 
-    &__text {
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 50px;
+  img {
+    width: 200px;
+    height: auto;
+    border: 2px solid $primary-color;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px;
+  }
 
-        p {
-            font-family: $secondary-font;
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
+  &__text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    p {
+      font-family: $secondary-font;
+      font-size: 14px;
+      margin-bottom: 10px;
     }
+  }
 }
 
 // SKILLS
 .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $font-color;
-    margin-bottom: 50px;
-   
-    h2 {
-        font-family: $primary-font;
-        font-size: 18px;
-        text-align: center;
-        padding: 10px;
-        margin-top: 30px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $font-color;
+  margin-bottom: 50px;
 
-    &__p {
-        font-family: $secondary-font;
-        font-size: 14px;
-        padding: 10px;
-        text-align: center;
-        display: flex;
-        align-self: center;
-        width: 240px;
-    }
-
-    &__img-with-text {
-        width: 50%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 10px;
-        align-self: center;        
-        
-        
-        img {
-            height: 45px;
-            padding: 5px;
-            display: block;
-            margin: 0 auto;
-        }
-
-        p {
-            text-align: justify;
-            font-family: $primary-font;
-            font-size: 12px;
-            color: $font-color;
-            text-align: center;
-        }
-    }
-}
-
-// 
-.project-h2 {
+  h2 {
     font-family: $primary-font;
-    text-align: center;
     font-size: 18px;
+    text-align: center;
     padding: 10px;
     margin-top: 30px;
-}
+  }
 
-.project {
-    color: $font-color;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .card {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: auto;
-    
-        &__img-container {
-            background-color: $hilighted-color;
-            position: relative;
-            height: auto;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
-            margin-top: 20px;
-        } 
-
-        &__img-container:hover {
-            background-color: $secondary-color;
-        }
-
-        &__img {
-            // width: 200px;
-            width: 80%;
-            height: auto;
-            margin-top: 30px;
-        }
-
-        h3 {
-            font-family: $secondary-font;
-            font-size: 14px;
-            color: $primary-color;
-            margin-top: 15px;
-        }
-
-        h4 {
-            font-family: $primary-font;
-            font-size: 20px;
-            color: $font-color;
-        }
-
-        p {
-            font-family: $secondary-font;
-            font-size: 14px;
-        }
-
-        &__button {
-            font-family: $secondary-font;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            
-            button {
-                background-color: $secondary-color;
-                color: $font-color;
-                font-size: 14px;
-                font-weight: bold;
-                text-decoration: none;
-                width: 85px;
-                margin-right: 10px;
-                border: 1px solid $primary-color;
-                border-radius: 5px;
-                padding: 5px;
-            }
-
-            button:hover {
-                background-color: white;
-                cursor: pointer;
-            }
-        }
-    }
-}
-
-.ft-container {
-    background-color: $font-color;
+  &__p {
     font-family: $secondary-font;
     font-size: 14px;
-    color: white;
+    padding: 10px;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100 vw;
-    height: 150px;
-   
+    align-self: center;
+    width: 300px;
+  }
 
-    &__link-icon {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        background-color: $font-color;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-
-    a {
-        border: 3px solid $secondary-color;
-        border-radius: 50%;
-    }
+  &__img-with-text {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    align-self: center;
 
     img {
-        align-self: center;
-        border-radius: 50%;
-        width: 25px;
-        height: 25px;
-    }
-
-    img:hover {
-        background-color: $secondary-color;
+      height: 45px;
+      padding: 5px;
+      display: block;
+      margin: 0 auto;
     }
 
     p {
-        background-color: $font-color;
+      text-align: justify;
+      font-family: $primary-font;
+      font-size: 12px;
+      color: $font-color;
+      text-align: center;
     }
+  }
+}
+
+//
+.project-h2 {
+  font-family: $primary-font;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.project {
+  color: $font-color;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+
+    &__img-container {
+      background-color: $hilighted-color;
+      position: relative;
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 20px;
+
+      &--blue-bg {
+        background-color: #d6eaf8;
+      }
+    }
+
+    &__img-container:hover {
+      background-color: $secondary-color;
+    }
+
+    &__img {
+      // width: 200px;
+      width: 80%;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    h3 {
+      font-family: $secondary-font;
+      font-size: 14px;
+      color: $primary-color;
+      margin-top: 15px;
+    }
+
+    h4 {
+      font-family: $primary-font;
+      font-size: 20px;
+      color: $font-color;
+    }
+
+    p {
+      font-family: $secondary-font;
+      font-size: 14px;
+    }
+
+    &__button {
+      font-family: $secondary-font;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      button {
+        background-color: $secondary-color;
+        color: $font-color;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        width: 88px;
+        margin-right: 10px;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 1px 1px 2px;
+      }
+
+      button:hover {
+        background-color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.ft-container {
+  background-color: $font-color;
+  font-family: $secondary-font;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100 vw;
+  height: 150px;
+
+  &__link-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: $font-color;
+  }
+
+  a {
+    border: 3px solid $secondary-color;
+    border-radius: 50%;
+  }
+
+  img {
+    align-self: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+
+  img:hover {
+    background-color: $secondary-color;
+  }
+
+  p {
+    background-color: $font-color;
+  }
 }
